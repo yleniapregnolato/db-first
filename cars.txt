@@ -1,0 +1,14 @@
+CARS
+_________
+
+id                      - UNSIGNED INT  - AUTO_INCREMENT  - PRIMARY_KEY
+marca                   - VARCHAR (60) - NOT NULL
+modello                 - VARCHAR (60) - NOT NULL
+chilometri              - INT - NOT NULL
+anno_immatricolazione   - INT - NOT NULL
+cilindrata              - DOUBLE (6, 2)
+carburante              - TEXT (20) 
+prezzo_originale        - DECIMAL (7, 2)
+prezzo_usato            - DECIMAL (7, 2) - NOT NULL
+disponibilità           - TINYINT - NOT NULL
+neopatentati            - TINYINT - NOT NULL
